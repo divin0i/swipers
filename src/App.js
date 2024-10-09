@@ -45,11 +45,6 @@ function App() {
                 <img key={index} src={src} alt={`Slide ${index}`} />
               ))}
             </Carousel>
-            <Carousel>
-              {slides.map((src, index) => (
-                <img key={index} src={src} alt={`Slide ${index}`} />
-              ))}
-            </Carousel>
           </div>
         </div>
       </section>
